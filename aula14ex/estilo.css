@@ -1,0 +1,47 @@
+@charset "UTF-8";
+ /* ...existing code... */
+ body {
+ font-family: Arial, sans-serif;
+ margin: 20px;
+ background-color: #242fc2;
+ max-width: 900px; /* limita a largura do conteúdo */
+ width: 90%;       /* torna responsivo em telas menores */
+ margin: 20px auto;/* centraliza horizontalmente */
+background-color: #242fc2;
+ }
+/* ...existing code... */
+ header {
+     background-color: #50b3a2;
+     color: white;
+     padding: 10px 0;
+     text-align: center;
+ }
+ section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+    
+
+ }
+ #foto {
+    display: block;
+    margin: 10px auto; /* centraliza horizontalmente */
+    width: 150px;      /* ajuste o tamanho desejado */
+    max-width: 100%;   /* não ultrapassa a largura do container */
+    height: auto;
+ }
+ footer {
+     text-align: center;
+     font-size: 0.9em;
+     color: #777;
+     font-style: italic;
+ }
+ h1 {
+     color: #333;
+ }
+ div {
+     text-align: center;
+     padding: 8px;
+ }
